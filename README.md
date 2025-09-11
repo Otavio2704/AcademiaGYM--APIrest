@@ -23,12 +23,19 @@ API RESTful completa para gerenciamento de academia de ginástica, desenvolvida 
 ## ✨ Características
 
 ✅ CRUD completo para todas as entidades
+
 ✅ Validação de dados com Bean Validation
+
 ✅ Tratamento global de exceções
+
 ✅ Relacionamentos JPA bem estruturados
+
 ✅ Console H2 para desenvolvimento
+
 ✅ Logs detalhados do Hibernate
+
 ✅ Arquitetura em camadas (Controller, Service, Repository)
+
 ✅ Documentação completa dos endpoints
 
 ---
