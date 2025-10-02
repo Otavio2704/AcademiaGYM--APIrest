@@ -318,8 +318,8 @@ Acesse:
 * **Banco:** H2 Database (em memória)
 * **JDBC URL:** `jdbc:h2:mem:academia`
 * **Driver:** `org.h2.Driver`
-* **Username:** `panda27`
-* **Password:** `panda27`
+* **Username:** `(...)`
+* **Password:** `(...)`
 * **Console H2:** `/h2-console`
 * **DDL:** `hibernate.ddl-auto=update`
 
