@@ -1,0 +1,57 @@
+spring:
+  config:
+    activate:
+      on-profile: prod
+  
+  # Banco de Dados PostgreSQL
+  datasource:
+    url: ${DATABASE_URL:jdbc:postgresql://localhost:5432/academia_prod}
+    username: ${DB_USERNAME:academia_user}
+    password: ${DB_PASSWORD}
+    driver-class-name: org.postgresql.Driver
+    hikari:
+      maximum-pool-size: 10
+      minimum-idle: 5
+      connection-timeout: 30000
+      idle-timeout: 600000
+      max-lifetime: 1800000
+  
+  # Configurações JPA
+  jpa:
+    database-platform: org.hibernate.dialect.PostgreSQLDialect
+    hibernate:
+      ddl-auto: validate
+    show-sql: false
+  
+  # Console H2 desabilitado
+  h2:
+    console:
+      enabled: false
+
+# Logging para produção
+logging:
+  level:
+    root: WARN
+    com.academia: INFO
+  file:
+    name: logs/academia-api.log
+
+# Segurança
+server:
+  error:
+    include-message: never
+    include-binding-errors: never
+
+# Actuator restrito
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health,info
+
+# Swagger desabilitado
+springdoc:
+  api-docs:
+    enabled: false
+  swagger-ui:
+    enabled: false

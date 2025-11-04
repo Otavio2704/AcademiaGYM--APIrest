@@ -1,0 +1,29 @@
+spring:
+  config:
+    activate:
+      on-profile: test
+  
+  # Banco de Dados H2 para Testes
+  datasource:
+    url: jdbc:h2:mem:academia_test
+    driver-class-name: org.h2.Driver
+    username: sa
+    password: 
+  
+  # Configurações JPA
+  jpa:
+    database-platform: org.hibernate.dialect.H2Dialect
+    hibernate:
+      ddl-auto: create-drop
+    show-sql: false
+  
+  # Console H2 desabilitado
+  h2:
+    console:
+      enabled: false
+
+# Logging mínimo
+logging:
+  level:
+    root: WARN
+    com.academia: INFO
