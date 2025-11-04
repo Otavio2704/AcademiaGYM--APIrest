@@ -198,8 +198,8 @@ mvn test
 ```yaml
 # H2 Database em memória
 spring.datasource.url: jdbc:h2:mem:academia_dev
-spring.datasource.username: panda27
-spring.datasource.password: panda27
+spring.datasource.username: [...]
+spring.datasource.password: [...]
 
 # Console H2 habilitado
 spring.h2.console.enabled: true
