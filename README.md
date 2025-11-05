@@ -588,4 +588,4 @@ Desenvolvido com ☕ Java, 🍃 Spring Boot e 💚 por **[Otavio2007](https://gi
 
 Se este projeto foi útil para você, considere dar uma ⭐ no repositório!
 
-[![GitHub Stars](https://img.shields.io/github/stars/Otavio2007/academia-api?style=social)](https://github.com/Otavio2007/academia-api)
+[![GitHub Stars](https://img.shields.io/github/stars/Otavio2704/academia-api?style=social)](https://github.com/Otavio2704/academia-api)
