@@ -580,7 +580,7 @@ Este projeto está sob a licença **MIT**. Veja o arquivo [LICENSE](LICENSE) par
 
 ## 👨‍💻 Autor
 
-Desenvolvido com ☕ Java, 🍃 Spring Boot e 💚 por **[Otavio2007](https://github.com/Otavio2007)**
+Desenvolvido com ☕ Java, 🍃 Spring Boot e 💚 por **[Otavio2704](https://github.com/Otavio2704)**
 
 ---
 
